@@ -63,6 +63,7 @@ public class MovieManagerTest {
 
         Assertions.assertArrayEquals(expected, actual);
     }
+
     @Test
     public void findLastMovieLimit7() {
         MovieManager manager = new MovieManager(7);
